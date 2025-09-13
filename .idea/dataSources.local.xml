@@ -11,8 +11,11 @@
         <introspection-scope>
           <node negative="1">
             <node kind="database" negative="1" />
-            <node kind="database" qname="@">
-              <node kind="schema" qname="@" />
+            <node kind="database">
+              <name qname="nyc_parking_violations" />
+              <name qname="system" />
+              <name qname="temp" />
+              <node kind="schema" negative="1" />
             </node>
           </node>
         </introspection-scope>
@@ -30,6 +33,11 @@
             <node kind="database" negative="1" />
             <node kind="database" qname="@">
               <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="system" />
+              <name qname="temp" />
+              <node kind="schema" negative="1" />
             </node>
           </node>
         </introspection-scope>

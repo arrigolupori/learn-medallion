@@ -2,5 +2,6 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/nyc_parking_violations" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/nyc_parking_violations/models/first-model.sql" dialect="GenericSQL" />
   </component>
 </project>
