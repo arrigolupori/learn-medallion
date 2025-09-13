@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="nyc_parking_violations.db" uuid="494187a8-756a-4145-ad99-d32598db9c83">
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:$PROJECT_DIR$/data/nyc_parking_violations.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="prod_nyc_parking_violations.db" uuid="de25c202-b079-40f4-99ea-53f707304e36">
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:$PROJECT_DIR$/data/prod_nyc_parking_violations.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

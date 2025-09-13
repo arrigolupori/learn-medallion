@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="nyc_parking_violations.db">
+  <database-model serializer="dbm" dbms="UNKNOWN" family-id="UNKNOWN" format-version="4.53">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+      <ServerVersion>1.0</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="nyc_parking_violations">
+      <Current>1</Current>
+    </database>
+    <database id="3" parent="1" name="system"/>
+    <database id="4" parent="1" name="temp"/>
+    <schema id="5" parent="2" name="main">
+      <Current>1</Current>
+    </schema>
+    <schema id="6" parent="2" name="main_dbt_test__audit"/>
+    <schema id="7" parent="3" name="information_schema"/>
+    <schema id="8" parent="3" name="main">
+      <Current>1</Current>
+    </schema>
+    <schema id="9" parent="3" name="pg_catalog"/>
+    <schema id="10" parent="4" name="main">
+      <Current>1</Current>
+    </schema>
+  </database-model>
+</dataSource>
